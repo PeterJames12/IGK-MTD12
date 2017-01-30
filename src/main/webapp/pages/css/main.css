@@ -1,0 +1,122 @@
+
+.myButton {
+    /*button-type: RAISED;*/
+    /*background-color: rgb(77,102,204);*/
+    /*text-fill: WHITE;*/
+
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Courier New, serif;
+    color: #ededed;
+    font-size: 17px;
+    background: #4e5f6b;
+    padding: 3px 30px 3px 20px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background: #373b3d;
+    background-image: -webkit-linear-gradient(top, #373b3d, #303d47);
+    background-image: -moz-linear-gradient(top, #373b3d, #303d47);
+    background-image: -ms-linear-gradient(top, #373b3d, #303d47);
+    background-image: -o-linear-gradient(top, #373b3d, #303d47);
+    background-image: linear-gradient(to bottom, #373b3d, #303d47);
+    text-decoration: none;
+}
+
+.store {
+    color: #536DFE;
+
+}
+
+.white-word {
+    color: white;
+    /*text-align: justify;*/
+
+}
+
+/*.home {*/
+    /*background: url(../image/macbook_pro.jpg) no-repeat fixed center center;*/
+    /*background-size: cover;*/
+    /*min-height: 100px;*/
+    /*width: 100%;*/
+    /*cursor: pointer;*/
+/*}*/
+
+
+.home2 {
+    background: url(../image/macbook_pro.jpg) no-repeat fixed center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.list {
+    width:350px;
+    font-family:Georgia, Times, serif;
+    font-size:15px;
+}
+.list ul {
+    list-style: none;
+}
+
+.list ul li a {
+    display:block;
+    text-decoration:none;
+    color:#000000;
+    background-color: white;
+    line-height:30px;
+    border-bottom: 1px solid #536DFE;
+    padding-left:10px;
+    cursor:pointer;
+}
+.list ul li a:hover {
+    color: #536DFE;
+    background-repeat: repeat-x;
+}
+
+.list ul li {}
+
+.list ul li a strong {
+    margin-right: 10px;
+}
+
+.search {
+
+    border-radius: 28px;
+    font-family: Courier New, serif;
+    color: #ededed;
+    font-size: 17px;
+    background: #4e5f6b;
+    padding: 10px 40px 9px 40px;
+    text-decoration: none;
+}
+
+.myBtn {
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Courier New, serif;
+    color: #ededed;
+    font-size: 17px;
+    background: #4e5f6b;
+    padding: 10px 40px 9px 40px;
+    text-decoration: none;
+}
+
+.myBtn:hover {
+    background: #373b3d;
+    background-image: -webkit-linear-gradient(top, #373b3d, #303d47);
+    background-image: -moz-linear-gradient(top, #373b3d, #303d47);
+    background-image: -ms-linear-gradient(top, #373b3d, #303d47);
+    background-image: -o-linear-gradient(top, #373b3d, #303d47);
+    background-image: linear-gradient(to bottom, #373b3d, #303d47);
+    text-decoration: none;
+}
+
+.projectName {
+    border-color: yellow !important;
+    color: #1c1c1c;
+}
