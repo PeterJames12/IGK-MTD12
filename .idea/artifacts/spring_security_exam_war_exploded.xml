@@ -26,6 +26,7 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.10" />
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:9.4.1208" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:8.0.30" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.0.30" />
