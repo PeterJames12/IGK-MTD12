@@ -9,7 +9,7 @@
   Time: 13:38
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="/pages/errorPage/ooops.jsp"%>
 
 <jsp:useBean id="projects" class="com.igor.model.service.ProjectService" scope="page"/>
 <jsp:useBean id="developerList" class="com.igor.model.service.DeveloperService" scope="page"/>
@@ -36,9 +36,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <link href="<c:url value="/pages/css/test.css"/>" rel="stylesheet">
     <%@include file="../../META-INF/jspf/links.jspf"%>
-    <link rel="stylesheet" href="../../css/main.css">
 </head>
 <body id="main_top">
 
@@ -60,7 +59,7 @@
 
 <%@include file="../../META-INF/jspf/mainHeader.jspf"%>
 
-<section class="home" id="home">
+<section class="home4" id="home">
     <div class="container cnt_middle">
         <div class="row row_middle">
             <div class="top_centering">
@@ -76,9 +75,9 @@
                                 <form action="<c:url value="/developer"/>" method="post">
                                     <input list="developer" name="whoAmI" placeholder="Who are you">
                                     <datalist id="developer">
-                                        <c:forEach var="developerListItem" items="${developerList.developerList}">
-                                            <option>${developerListItem.name}</option>
-                                        </c:forEach>
+                                        <%--<c:forEach var="developerListItem" items="${developerList.developerList}">--%>
+                                            <%--<option>${developerListItem.name}</option>--%>
+                                        <%--</c:forEach>--%>
                                     </datalist>
                                     <input type="password" name="passwordDev" placeholder="ur password please">
                                     <input class="myButton" type="submit" value="My Project" name="myProject">

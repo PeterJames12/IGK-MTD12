@@ -11,7 +11,7 @@
   Time: 12:44
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="/pages/errorPage/ooops.jsp"%>
 
 <jsp:useBean id="projects" class="com.igor.model.service.ProjectService" scope="page"/>
 <jsp:useBean id="manager" class="com.igor.model.service.ProjectManagerService" scope="page"/>
@@ -30,7 +30,7 @@
     <sec:authentication var="admin" property="principal.username"/>
     <html>
 <head>
-    <title>${admin}</title>
+    <title>IGC-MTD12</title>
 
     <meta charset="utf-8">
 
@@ -43,7 +43,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="<c:url value="sign" />" rel="stylesheet">
     <link href="<c:url value="../css/bootstrap.css" />" rel="stylesheet">
-    <link href="<c:url value="../css/main.css" />" rel="stylesheet">
+    <link href="<c:url value="/pages/css/test.css"/>" rel="stylesheet">
 
     <%@include file="../../META-INF/jspf/links.jspf"%>
 </head>
@@ -81,7 +81,7 @@
 
 <%@include file="../../META-INF/jspf/mainHeader.jspf" %>
 
-<section class="home" id="home">
+<section class="home4" id="home">
     <div class="container cnt_middle">
         <div class="row row_middle">
             <div class="top_centering">
@@ -107,18 +107,18 @@
                                         <label>
                                             <input class="form-control" list="manager" name="mainDev" placeholder="Select manager">
                                             <datalist id="manager" name="mainDev">
-                                                <c:forEach var="managerItems" items="${manager.allProjectManager}">
-                                                    <option>${managerItems.name}</option>
-                                                </c:forEach>
+                                                <%--<c:forEach var="managerItems" items="${manager.allProjectManager}">--%>
+                                                    <%--<option>${managerItems.name}</option>--%>
+                                                <%--</c:forEach>--%>
                                             </datalist>
                                         </label>
 
                                         <label>
                                             <input class="form-control" list="developers" name="developer" placeholder="Select Dev">
                                             <datalist id="developers">
-                                                <c:forEach var="developer" items="${developers.developerList}">
-                                                    <option>${developer.name}</option>
-                                                </c:forEach>
+                                                <%--<c:forEach var="developer" items="${developers.developerList}">--%>
+                                                    <%--<option>${developer.name}</option>--%>
+                                                <%--</c:forEach>--%>
                                             </datalist>
                                         </label>
                                         <input type="text" class="form-control" name="task" placeholder="Task">

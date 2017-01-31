@@ -1,4 +1,5 @@
-<%@ page import="com.igor.notification.Notification" errorPage="errorPage/ooops.jsp" %><%--
+<%@ page import="com.igor.notification.Notification"%>
+<%--
   Created by IntelliJ IDEA.
   User: igor
   Date: 07.01.17
@@ -17,7 +18,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="<c:url value="../pages/css/test.css"/>" rel="stylesheet">
 
    <%@include file="../META-INF/jspf/links.jspf"%>
 
@@ -41,7 +42,7 @@
     </div>
 </header>
 
-<section class="home" id="home">
+<section class="home3" id="home">
     <div class="container cnt_middle">
         <div class="row row_middle">
             <div class="top_centering">
