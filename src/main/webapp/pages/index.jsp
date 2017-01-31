@@ -19,8 +19,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="<c:url value="../pages/css/test.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/media.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/fonts.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/tomato.css"/>" rel="stylesheet">
 
-   <%@include file="../META-INF/jspf/links.jspf"%>
+
+    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/magnific-popup/magnific-popup.css"/>" rel="stylesheet">
+    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/animate/animate.css"/>" rel="stylesheet">
+    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/font-awesome/css/font-awesome.min.css"/>" rel="stylesheet">
+    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
 
 </head>
 

@@ -1,0 +1,85 @@
+.main_text h1 .t_color {
+    color: #c23e3e; }
+
+.m_butt a:hover {
+    color: #c23e3e;
+    border: 1px solid #c23e3e; }
+
+.ab_small_cont a {
+    color: #c23e3e;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease; }
+.ab_small_cont a:hover {
+    background-color: #c23e3e;
+    color: white; }
+
+.pr_all_inform p span {
+    color: #c23e3e; }
+
+.head_cent_price {
+    background-color: #c23e3e; }
+
+.cn_h_date p {
+    background-color: #c23e3e; }
+
+.cn_h_inn h3 span {
+    color: #c23e3e; }
+
+.cent_button a {
+    background-color: #c23e3e;
+    border: 1px solid #c23e3e; }
+
+#object {
+    background-color: #c23e3e; }
+
+.all_h:after {
+    border-bottom: 3px solid #c23e3e; }
+
+.p_item_count a {
+    background-color: #c23e3e; }
+
+.p_descr a {
+    color: #c23e3e; }
+
+.p_descr a:hover {
+    background-color: #c23e3e; }
+
+.at_full_social a:hover {
+    color: #c23e3e; }
+
+.circle {
+    box-shadow: 0 0 35px #c23e3e;
+    border: 5px solid #c23e3e; }
+
+.circle1 {
+    border: 5px solid #c23e3e;
+    box-shadow: 0 0 15px #c23e3e; }
+
+@-moz-keyframes spinPulse {
+    0% {
+        box-shadow: 0 0 1px #c23e3e; } }
+@-webkit-keyframes spinPulse {
+    0% {
+        box-shadow: 0 0 1px #c23e3e; } }
+.inner_small_foot2 label span {
+    color: #c23e3e; }
+
+.pod_bl1 {
+    background-color: #c23e3e; }
+
+.inner_small_foot2 form input:last-child {
+    background-color: #c23e3e; }
+
+.inner_footer p span {
+    color: #c23e3e; }
+
+#rh_wind .col_inp {
+    background-color: #c23e3e;
+    border: 1px solid #c23e3e; }
+
+#rh_wind .col_inp:hover {
+    background-color: transparent;
+    color: white; }
+
+/*# sourceMappingURL=tomato.css.map */
