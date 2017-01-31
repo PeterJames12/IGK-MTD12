@@ -11,7 +11,7 @@
   Time: 12:44
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="errorPage/ooops.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 
 <jsp:useBean id="projects" class="com.igor.model.service.ProjectService" scope="page"/>
 <jsp:useBean id="manager" class="com.igor.model.service.ProjectManagerService" scope="page"/>
