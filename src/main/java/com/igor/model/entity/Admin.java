@@ -1,4 +1,4 @@
-package model.entity;
+package com.igor.model.entity;
 
 
 import lombok.Getter;

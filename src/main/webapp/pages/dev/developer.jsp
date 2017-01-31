@@ -1,6 +1,6 @@
 <%@ page import="java.util.List" %>
-<%@ page import="model.entity.Project" %>
-<%@ page import="model.service.ProjectService" %>
+<%@ page import="com.igor.model.entity.Project" %>
+<%@ page import="com.igor.model.service.ProjectService" %>
 <%@ page import="com.igor.notification.Notification" %>
 <%--
   Created by IntelliJ IDEA.
@@ -9,10 +9,10 @@
   Time: 13:38
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="errorPage/ooops.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 
-<jsp:useBean id="projects" class="model.service.ProjectService" scope="page"/>
-<jsp:useBean id="developerList" class="model.service.DeveloperService" scope="page"/>
+<jsp:useBean id="projects" class="com.igor.model.service.ProjectService" scope="page"/>
+<jsp:useBean id="developerList" class="com.igor.model.service.DeveloperService" scope="page"/>
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
 
 <sec:authorize access="!isAuthenticated()">

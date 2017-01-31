@@ -1,8 +1,8 @@
-package model.service;
+package com.igor.model.service;
 
 import com.igor.database.DatabaseConnection;
 import lombok.SneakyThrows;
-import model.entity.Developer;
+import com.igor.model.entity.Developer;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

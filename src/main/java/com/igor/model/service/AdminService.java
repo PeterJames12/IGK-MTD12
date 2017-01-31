@@ -1,7 +1,7 @@
-package model.service;
+package com.igor.model.service;
 
 import com.igor.database.DatabaseConnection;
-import model.entity.Admin;
+import com.igor.model.entity.Admin;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

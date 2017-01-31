@@ -1,11 +1,9 @@
-package model.service;
+package com.igor.model.service;
 
 import com.igor.database.DatabaseConnection;
 import lombok.SneakyThrows;
-import model.entity.Project;
+import com.igor.model.entity.Project;
 
-import javax.naming.InitialContext;
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;

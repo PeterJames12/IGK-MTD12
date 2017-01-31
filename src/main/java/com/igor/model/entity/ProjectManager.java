@@ -1,4 +1,4 @@
-package model.entity;
+package com.igor.model.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,12 +8,11 @@ import lombok.Setter;
  */
 @Setter
 @Getter
-public class Developer {
+public class ProjectManager {
 
     private String name;
-    private String email;
-    private String skills;
 
-    public Developer() {
+    public ProjectManager() {
+
     }
 }

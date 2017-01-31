@@ -1,9 +1,9 @@
-package model.service;
+package com.igor.model.service;
 
 import com.igor.database.DatabaseConnection;
 import lombok.SneakyThrows;
 import lombok.val;
-import model.entity.ProjectManager;
+import com.igor.model.entity.ProjectManager;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

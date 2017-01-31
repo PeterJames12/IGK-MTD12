@@ -1,7 +1,7 @@
 <%@ page import="java.util.LinkedList" %>
-<%@ page import="model.service.ProjectService" %>
-<%@ page import="model.service.DeveloperService" %>
-<%@ page import="model.entity.Project" %>
+<%@ page import="com.igor.model.service.ProjectService" %>
+<%@ page import="com.igor.model.service.DeveloperService" %>
+<%@ page import="com.igor.model.entity.Project" %>
 <%@ page import="java.util.List" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
@@ -13,9 +13,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="errorPage/ooops.jsp"%>
 
-<jsp:useBean id="projects" class="model.service.ProjectService" scope="page"/>
-<jsp:useBean id="manager" class="model.service.ProjectManagerService" scope="page"/>
-<jsp:useBean id="developers" class="model.service.DeveloperService" scope="page"/>
+<jsp:useBean id="projects" class="com.igor.model.service.ProjectService" scope="page"/>
+<jsp:useBean id="manager" class="com.igor.model.service.ProjectManagerService" scope="page"/>
+<jsp:useBean id="developers" class="com.igor.model.service.DeveloperService" scope="page"/>
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
 
 
