@@ -4,9 +4,9 @@
               auth="Container"
               type="javax.sql.DataSource"
               driverClassName="org.postgresql.Driver"
-              url="jdbc:postgresql://localhost:5432/test_database"
-              username="test_user"
-              password="qwerty"
+              url="jdbc:postgresql://ec2-23-23-93-255.compute-1.amazonaws.com:5432/d5t06k85ohsutd"
+              username="zqrtvxhfqmdjft"
+              password="5946f5d3a5434dc18a5fd32dc6759c9b62b37cb0e687cb7e1f80b27dbd09c7ba"
               maxTotal="20"
               maxIdle="10"
               maxWaitMillis="-1"/>
