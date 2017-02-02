@@ -42,9 +42,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="<c:url value="sign" />" rel="stylesheet">
-    <link href="<c:url value="../css/bootstrap.css" />" rel="stylesheet">
-    <link href="<c:url value="/pages/css/test.css"/>" rel="stylesheet">
-
+    <link href="<c:url value="../../pages/bootstrap.css" />" rel="stylesheet">
+    <link href="<c:url value="../../pages/css/test.css"/>" rel="stylesheet">
     <%@include file="../../META-INF/jspf/links.jspf"%>
 </head>
 <body id="main_top">

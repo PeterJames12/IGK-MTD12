@@ -36,7 +36,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="<c:url value="/pages/css/test.css"/>" rel="stylesheet">
+    <link href="<c:url value="../../pages/css/test.css"/>" rel="stylesheet">
     <%@include file="../../META-INF/jspf/links.jspf"%>
 </head>
 <body id="main_top">
@@ -73,7 +73,7 @@
                                 <br>
                                 <br>
                                 <form action="<c:url value="/developer"/>" method="post">
-                                    <input list="developer" name="whoAmI" placeholder="Who are you">
+                                    <input list="developer" name="whoAmI" placeholder="Who are you?">
                                     <datalist id="developer">
                                         <%--<c:forEach var="developerListItem" items="${developerList.developerList}">--%>
                                             <%--<option>${developerListItem.name}</option>--%>

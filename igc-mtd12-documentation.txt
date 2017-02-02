@@ -1,22 +1,18 @@
-Java developer team
+The essence of the project is ability to make reservations for Java projects that igc-mtd12 team will perform.
 
-Суть проекту полягає в можливості робити замовленя на Java проекти, які команда igc-mtd12 буде виконувати.
-Команда складається з Адміна це Tatyana Zaharchenko, Project manager Alex, developers: Igor Gnes, Andre Voitenko,
-Zikim, Aleksandr Tarnavsky, Peter James and Olga Shevchenko, also with us works Marina Togonska.
+Java developer team.
 
-Structure:
-pages: index.jsp: is the main page for customers, there are is special form where anyone can send his order, then admin immediately
-will see that and gives answer. Also this page a bit describe our team. Link Sing In redirect you in login.jsp
+The structure of java developer team:
+pages: index.jsp - is the main page for customers, therе is special form where anyone can send his order, then admin immediately sees it and gives answer. Also this page a bit describes our team. Link Sing In redirect you in login.jsp
 
-login.jsp: it is spring security that check you login ang pass, "admin" "1234" (you won't see "1234" because i use crypto)
+login.jsp: it is spring security that checks your login ang pass, "admin" "1234" (you won't see "1234" because I use crypto)
 After logging you'll see new links Admin and Developer. If you are not logging and type /admin you'll see login form.
 
-admin.jsp: makes possible to create project, see all project and add new developers.
+admin.jsp: makes possible to create a project, see all project and add new developers.
 All information takes from database PostgreSQL.
 
 developer.jsp: you type your name and password which storage in database and if it is correct and you have project you will see that.
 Also if you have some questions to admin, there is special form for that.
 
-I was working with next technologies: Spring Framework(Security), Java Mail, PostgreSQL, Maven, Lombok, Tomcat, Intellij IDEA, HTML & CSS, JavaScript.
-Also i worked with JSF, Hibernate, Ajax, but Tomcat doesn't work with JSF so i do not use that in a project.
-
+I worked with following technologies: Spring Framework(Security), Java Mail, PostgreSQL, Maven, Lombok, Tomcat, Intellij IDEA, HTML & CSS, JavaScript.
+Also i worked with JSF, Hibernate, Ajax, but Tomcat doesn't work with JSF so i don't use that in a project.

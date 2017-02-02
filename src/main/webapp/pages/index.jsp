@@ -225,7 +225,7 @@
                 </div>
 
                 <%
-                    request.setCharacterEncoding("utf-8");
+//                    request.setCharacterEncoding("utf-8");
                     String customerName = request.getParameter("customerName");
                     String customerEmail = request.getParameter("customerEmail");
                     String customerMessage = request.getParameter("customerMessage");
