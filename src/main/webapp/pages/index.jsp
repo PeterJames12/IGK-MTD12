@@ -24,10 +24,10 @@
     <link href="<c:url value="../pages/css/tomato.css"/>" rel="stylesheet">
 
 
-    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/magnific-popup/magnific-popup.css"/>" rel="stylesheet">
-    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/animate/animate.css"/>" rel="stylesheet">
-    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/font-awesome/css/font-awesome.min.css"/>" rel="stylesheet">
-    <link href="<c:url value="http://etmakub.com/wp-content/themes/etmakub/libs/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/magnific-popup.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/animate.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/font-awesome.css"/>" rel="stylesheet">
+    <link href="<c:url value="../pages/css/bootstrapp.css"/>" rel="stylesheet">
 
 </head>
 

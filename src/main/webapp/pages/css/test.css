@@ -856,33 +856,6 @@ header {
 .author {
     padding-top: 80px; }
 
-.at_full {
-    text-align: center; }
-
-.at_full_img1 {
-    width: 140px;
-    border-radius: 70px;
-    position: relative;
-    height: 140px;
-    display: table;
-    margin: 0 auto;
-    background-image: url(../img/author1.jpg);
-    background-size: 140%;
-    background-repeat: no-repeat;
-    background-position: -40px 0; }
-
-.at_full_img2 {
-    width: 140px;
-    border-radius: 70px;
-    position: relative;
-    height: 140px;
-    display: table;
-    margin: 0 auto;
-    background-image: url(../img/author2.jpg);
-    background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: -20px -10px; }
-
 .at_full_h h2 {
     margin-top: 20px;
     margin-bottom: 0px;
@@ -907,23 +880,6 @@ header {
     margin-top: 60px;
     margin-bottom: 100px; }
 
-.at_inn {
-    background-color: #000;
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px; }
-
-.at_inn::before {
-    background-image: url(../img/line.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100px;
-    top: -100px;
-    left: 0;
-    display: block;
-    content: "";
-    position: absolute;
-    width: 100%; }
 
 .at_inn_stat_bl {
     text-align: center; }
@@ -994,7 +950,7 @@ header {
         -moz-transform: rotate(160deg);
         opacity: 0; }
     50% {
-        -moz-transform: rotate(145deg);
+        -moz-tranform: rotate(145deg);
         opacity: 1; }
     100% {
         -moz-transform: rotate(-320deg);
