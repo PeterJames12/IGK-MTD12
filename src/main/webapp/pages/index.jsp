@@ -85,6 +85,7 @@
                         price
                     </h1>
                 </div>
+                <sec:authorize access="!isAuthenticated()">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 move_button def_text clear">
                     <div class="m_butt">
                         <h5>Sing In</h5>
@@ -92,6 +93,7 @@
                             &#9660;
                         </a></div>
                 </div>
+                </sec:authorize>
             </div>
         </div>
     </div>

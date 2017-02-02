@@ -72,16 +72,20 @@
                                 <br>
                                 <br>
                                 <br>
-                                <form action="<c:url value="/developer"/>" method="post">
-                                    <input list="developer" name="whoAmI" placeholder="Who are you?">
-                                    <datalist id="developer">
-                                        <%--<c:forEach var="developerListItem" items="${developerList.developerList}">--%>
-                                            <%--<option>${developerListItem.name}</option>--%>
-                                        <%--</c:forEach>--%>
-                                    </datalist>
-                                    <input type="password" name="passwordDev" placeholder="ur password please">
-                                    <input class="myButton" type="submit" value="My Project" name="myProject">
-                                </form>
+                                <div style="width: 300px;">
+                                    <form action="<c:url value="/developer"/>" method="post">
+                                        <input class="form-control" list="developer" name="whoAmI" placeholder="Who are you?">
+                                        <datalist id="developer">
+                                                <%--<c:forEach var="developerListItem" items="${developerList.developerList}">--%>
+                                                <%--<option>${developerListItem.name}</option>--%>
+                                                <%--</c:forEach>--%>
+                                        </datalist>
+                                            <%--<input type="text" name="whoAmI" placeholder="ur name please">--%>
+                                        <input class="form-control" type="password" name="passwordDev" placeholder="ur password please">
+                                        <br>
+                                        <input class="myButton" type="submit" value="My Project" name="myProject">
+                                    </form>
+                                </div>
                                 <br>
                                 <div>
                                     <h4 style="color: white">Project List:</h4>
