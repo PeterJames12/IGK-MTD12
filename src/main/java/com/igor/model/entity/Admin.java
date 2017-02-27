@@ -1,9 +1,7 @@
 package com.igor.model.entity;
 
-
 import lombok.Getter;
 import lombok.Setter;
-
 /**
 /**
  * @author devcolibri on 20.01.17.
